@@ -13,6 +13,7 @@ import numpy as np
 
 from compute_scores import euclidean_score
 
+
 def build_arg_parser():
     parser = argparse.ArgumentParser(description='Find the movie recommendations for the given user')
     parser.add_argument('--user', dest='user', required=True,
