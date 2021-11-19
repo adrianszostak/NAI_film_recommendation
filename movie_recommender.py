@@ -62,7 +62,7 @@ if __name__=='__main__':
     args = build_arg_parser().parse_args()
     user = args.user
 
-    ratings_file = 'my_ratings.json'
+    ratings_file = 'ratings.json'
 
     with open(ratings_file, 'r') as f:
         data = json.loads(f.read())
